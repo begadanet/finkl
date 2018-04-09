@@ -14,8 +14,6 @@ module Log
 	@@loggerConsole.level = Logger::DEBUG
 	# @@loggerConsole.datetime_format = '%Y-%m-%d %H:%M:%S'
 	
-	def self.init()
-	
 	def self.d(log)
 		@@loggerConsole.debug(log)
 		@@loggerFile.debug(log)		
